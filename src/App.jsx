@@ -3,7 +3,6 @@ import Tracker from "./components/Tracker/Tracker"
 import team from './data/workers';
 
 function App() {
-  console.log(team[0].name);
   return (
     <div className="App">
         <Tracker name={team[0].name} role={team[0].role}  />
