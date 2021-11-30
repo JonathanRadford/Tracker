@@ -1,0 +1,19 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.Tracker{
+    width: 250px;
+    height: 400px;
+    border: 1px solid $color-black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Counter{
+    border: 1px solid $color-black;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+    width: 210px;
+    height: 230px;
+
+}
