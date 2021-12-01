@@ -1,7 +1,9 @@
+
+
 import "./Tracker.scss";
 
 const Tracker = (props) => {
-    return (
+      return (
       <span className="Tracker">
         <p>Name: {props.name}</p>
           <p>Role: {props.role}</p>
@@ -13,3 +15,5 @@ const Tracker = (props) => {
   };
   
   export default Tracker;
+
+
