@@ -1,19 +1,24 @@
-
-
+import React from "react";
 import "./Tracker.scss";
 
 const Tracker = (props) => {
+  const {title, teamArr} = props
+  const workerName = teamArr.map((team, index) => {
+    return <div key={title + index} className="team-info"><h2>Name: </h2> <p> {team.name}</ p>  
+            <h2>Name: </h2><p> {team.role} <div className="counter">
+              <h2>Counter</h2>
+          </div></ p></ div>     
+  })
       return (
-      <span className="Tracker">
-        <p>Name: {props.name}</p>
-          <p>Role: {props.role}</p>
-          <div className="Counter">
-              <p>Counter</p>
-          </div>
-      </span>
+      <div>
+        <div className="team">
+          {workerName} 
+          </div>     
+      </div>
     );
   };
-  
   export default Tracker;
+
+  
 
 
