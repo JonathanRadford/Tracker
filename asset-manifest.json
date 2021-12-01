@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JonathanRadford/Tracker/static/css/main.6d1d9c50.chunk.css",
+    "main.js": "/JonathanRadford/Tracker/static/js/main.f3147d4a.chunk.js",
+    "main.js.map": "/JonathanRadford/Tracker/static/js/main.f3147d4a.chunk.js.map",
+    "runtime-main.js": "/JonathanRadford/Tracker/static/js/runtime-main.7e2cbfd6.js",
+    "runtime-main.js.map": "/JonathanRadford/Tracker/static/js/runtime-main.7e2cbfd6.js.map",
+    "static/js/2.1309a1a5.chunk.js": "/JonathanRadford/Tracker/static/js/2.1309a1a5.chunk.js",
+    "static/js/2.1309a1a5.chunk.js.map": "/JonathanRadford/Tracker/static/js/2.1309a1a5.chunk.js.map",
+    "static/js/3.702477b1.chunk.js": "/JonathanRadford/Tracker/static/js/3.702477b1.chunk.js",
+    "static/js/3.702477b1.chunk.js.map": "/JonathanRadford/Tracker/static/js/3.702477b1.chunk.js.map",
+    "index.html": "/JonathanRadford/Tracker/index.html",
+    "static/css/main.6d1d9c50.chunk.css.map": "/JonathanRadford/Tracker/static/css/main.6d1d9c50.chunk.css.map",
+    "static/js/2.1309a1a5.chunk.js.LICENSE.txt": "/JonathanRadford/Tracker/static/js/2.1309a1a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e2cbfd6.js",
+    "static/js/2.1309a1a5.chunk.js",
+    "static/css/main.6d1d9c50.chunk.css",
+    "static/js/main.f3147d4a.chunk.js"
+  ]
+}
