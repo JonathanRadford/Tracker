@@ -1,22 +1,23 @@
 @use "../../assets/sass/_variables.scss" as *;
 
 *{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .team {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
   }
 
   .team-info {
     text-align: left;
     background-color: $color-secondary;
-    width: 300px;
-    height: 600px;
+    width: 280px;
+    height: 250px;
     border: 1px solid $color-black;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 15px;
   }
 
@@ -24,10 +25,52 @@
     text-align: center;
     background-color: $color-primary;
     border: 1px solid $color-black;
-    margin: 0 20px;
+    margin: 0 30px;
+    padding: 10px;
     position: relative;
-    top: 50px;
-    width: 250px;
-    height: 350px;
+    top: 20px;
+    width: 200px;
+    height: 120px;
     border-radius: 15px;
+}
+
+@media screen and (min-width: 768px){
+  .team-info {
+    width: 280px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .counter{
+    margin: 0 30px;
+    padding: 10px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+h2{
+  font-size: 1.5rem;
+}
+}
+
+@media screen and (min-width: 1024px){
+  .team-info {
+    width: 330px;
+    height: 390px;
+  }
+
+  .counter{
+    width: 250px;
+    height: 190px;
+    border-radius: 15px;
+}
+h2{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.5rem;
+}
 }

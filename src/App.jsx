@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Task Tracker</h1>
-        <Tracker teamArr={team}  />
+        <Tracker title="Position" teamArr={team}  />
     </div>
   );
 }

@@ -1,1 +1,33 @@
 @use "../../assets/sass/_variables.scss" as *;
+
+h3{
+    font-size: 2rem;
+}
+.button-counter{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.button{
+    border: transparent;
+    background-color: transparent;
+    width: 80px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    h3{
+        font-size: 3rem;
+    }
+    .button-counter{
+        padding: 20px;
+        font-size: 3rem;
+    }
+    
+    .button{
+        width: 80px;
+        height: 50px;
+        font-size: 3rem;
+    }
+  }
