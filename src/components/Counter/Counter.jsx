@@ -3,6 +3,7 @@ import "./Counter.scss";
 
 
 const Counter = () => {
+    
     const [counter, setCounter] = useState(0);
     
     const handleIncrement = () => {
